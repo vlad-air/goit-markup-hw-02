@@ -19,11 +19,16 @@ h1 {
 h2 {
   font-size: 36px;
   font-weight: 700;
+  color: #2e2f42;
+  line-height: 1.111111;
+  text-align: center;
 }
 
 h3 {
-  font-weight: 500;
   font-size: 20px;
+  font-weight: 500;
+  color: #2e2f42;
+  line-height: 1.2;
 }
 
 li {
@@ -40,6 +45,13 @@ a:focus,
 a:active {
   color: #404bbf;
 }
+
+nav a {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+/* header */
 
 .nav-logo-web {
   font-weight: 700;
@@ -59,20 +71,7 @@ a:active {
   color: #2e2f42;
 }
 
-nav {
-  font-weight: 500;
-  color: #2e2f42;
-}
-
-/* .header-adress .link-adress,
-.header-adress .link-adress {
-  color: #434455;
-} */
-
-/* .header-adress .link-adress:hover,
-.header-adress .link-adress:focus {
-  color: #404bbf;
-} */
+/* Section Hero */
 
 .hero {
   background-color: #2e2f42;
@@ -82,7 +81,6 @@ nav {
   border-radius: 4px;
   background-color: #4d5ae5;
   color: #ffffff;
-  border-radius: 4px;
   padding: 16px 32px;
   width: 169px;
   height: 56px;
@@ -93,12 +91,28 @@ nav {
   background: #404bbf;
 }
 
+/* Section Advantages */
+
+/* Section Our Team */
+
 .our-team {
   background-color: #f4f4fd;
 }
 
+.our-team li {
+  text-align: center;
+}
+
+/* Our Portfolio */
+
+/* Footer */
+
 .footer {
   background-color: #2e2f42;
+}
+
+.footer p {
+  color: #ffffff;
 }
 
 .footer-logo-web {
@@ -117,8 +131,4 @@ nav {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
-}
-
-.footer p {
-  color: #ffffff;
 }
