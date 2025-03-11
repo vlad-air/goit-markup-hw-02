@@ -1,19 +1,11 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   background-color: #ffffff;
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-h1 {
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07143;
-  text-align: center;
-  color: #ffffff;
 }
 
 h2 {
@@ -51,49 +43,81 @@ nav a {
   color: #2e2f42;
 }
 
-/* header */
+/* -----------------------header------------------------ */
 
-.nav-logo-web {
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* color: #4d5ae5; */
+
+.header-logo-web {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
 }
 
-.nav-logo-studio {
+.header-logo-studio {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  font-family: "Raleway", sans-serif;
 }
 
-/* Section Hero */
+/* -----------------------1 Section Hero------------------------ */
 
 .hero {
   background-color: #2e2f42;
 }
 
-.hero-button {
-  border-radius: 4px;
-  background-color: #4d5ae5;
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
   color: #ffffff;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  cursor: pointer;
+  letter-spacing: 0.02em;
 }
 
-.hero-button:hover {
+.hero-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
   background: #404bbf;
 }
 
-/* Section Advantages */
+/* -----------------------2 Section Advantages------------------------ */
+.advantages-sub-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2e2f42;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
 
-/* Section Our Team */
+.advantages-text {
+}
+/* -----------------------3 Section Our Team------------------------ */
 
 .our-team {
   background-color: #f4f4fd;
@@ -103,9 +127,9 @@ nav a {
   text-align: center;
 }
 
-/* Our Portfolio */
+/* -----------------------4 Our Portfolio------------------------ */
 
-/* Footer */
+/* -----------------------Footer------------------------ */
 
 .footer {
   background-color: #2e2f42;
@@ -122,6 +146,7 @@ nav a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
 }
 
 .footer-logo-studio {
@@ -131,4 +156,5 @@ nav a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
 }
