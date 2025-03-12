@@ -67,6 +67,19 @@ nav a {
 .address {
   font-style: normal;
 }
+
+.address-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+
 /* -----------------------1 Section Hero------------------------ */
 
 .hero {
