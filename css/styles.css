@@ -45,7 +45,7 @@ nav a {
 
 /* -----------------------header------------------------ */
 
-.logo {
+.header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -64,6 +64,9 @@ nav a {
   color: #2e2f42;
 }
 
+.address {
+  font-style: normal;
+}
 /* -----------------------1 Section Hero------------------------ */
 
 .hero {
@@ -123,26 +126,20 @@ nav a {
   background-color: #2e2f42;
 }
 
-.footer p {
-  color: #ffffff;
-}
-
-.footer-logo-web {
+.footer-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  font-family: "Raleway", sans-serif;
 }
 
 .footer-logo-studio {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #f4f4fd;
-  font-family: "Raleway", sans-serif;
+}
+
+.footer-text {
+  color: #f4f4fd;
 }
