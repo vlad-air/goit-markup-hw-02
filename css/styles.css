@@ -118,6 +118,31 @@ nav a {
   text-align: center;
 }
 
+.our-team-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #2e2f42;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.our-team-text {
+  font-size: 16px;
+}
+
+.our-team-item {
+  background-color: #ffffff;
+}
+
+.our-team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: 2e2F42;
+}
 /* -----------------------4 Our Portfolio------------------------ */
 
 /* -----------------------Footer------------------------ */
